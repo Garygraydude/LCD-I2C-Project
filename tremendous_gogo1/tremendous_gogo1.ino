@@ -7,12 +7,14 @@ void setup()
 {
   lcd.init();
   lcd.backlight();
-  lcd.setCursor(2 , 0);
-  lcd.print(";D");
 }
 
 void loop()
 {
-  
+  for)int i = 0 ; i <= 16; i++){
+    lcd.clear;
+    lcd.setCursor(i , 0);
+    lcd.print(":D");
+  }
   
 }
